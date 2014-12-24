@@ -9,4 +9,4 @@ lib_LTLIBRARIES = libosmoctrl.la
 libosmoctrl_la_SOURCES = control_cmd.c control_if.c
 
 libosmoctrl_la_LDFLAGS = $(LTLDFLAGS_OSMOCTRL) -version-info $(LIBVERSION) -no-undefined
-libosmoctrl_la_LIBADD = $(top_builddir)/src/libosmocore.la
+libosmoctrl_la_LIBADD = $(top_builddir)/src/libosmocore.la 
